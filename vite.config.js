@@ -4,6 +4,7 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   root: path.resolve(__dirname, 'src'),
+  base: '/djinni-test/',
   build: {
     outDir: '../dist'
   },
