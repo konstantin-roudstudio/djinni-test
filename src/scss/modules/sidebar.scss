@@ -29,7 +29,6 @@
 
     @include media-breakpoint-down(sm) {
       padding: 10px;
-
     }
 
     &::before {
@@ -43,6 +42,10 @@
       bottom: 0;
       opacity: 0;
       transition: opacity .3s ease;
+
+      @include media-breakpoint-down(sm) {
+        left: -6px;
+      }
 
       @include media-breakpoint-down(sm) {
         left: 0;

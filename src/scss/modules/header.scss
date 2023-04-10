@@ -42,8 +42,10 @@
         color: #eee;
       }
 
-      &:focus {
+      &:focus,
+      &:focus-visible {
         outline-color: $theme-accent !important;
+        outline-style: solid;
       }
     }
 
