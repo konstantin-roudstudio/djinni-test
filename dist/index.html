@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap w/ Vite</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-2e49be50.js"></script>
+  <link rel="stylesheet" href="/assets/index-60af41fc.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrapper container">
+      <div class="header__inner row align-items-center">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <div class="col col-12 col-lg-5 col-xxl-4 ">
+                <div class="header__menu">
+                  <a href="#" class="active">Photos</a>
+                  <a href="#">Videos</a>
+                  <a href="#">Podcasts</a>
+                </div>
+              </div>
+              <div class="col col-12 col-lg-4 col-xxl-6">
+                <form role="search" class="header__search">
+                  <i>
+                    <svg width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.905,17.32l4.095,4.094l1.414,-1.414l-4.094,-4.095c1.053,-1.354 1.68,-3.056 1.68,-4.905c0,-4.418 -3.582,-8 -8,-8c-4.418,0 -8,3.582 -8,8c0,4.418 3.582,8 8,8c1.849,0 3.551,-0.627 4.905,-1.68Zm1.095,-6.32c0,3.314 -2.686,6 -6,6c-3.314,0 -6,-2.686 -6,-6c0,-3.314 2.686,-6 6,-6c3.314,0 6,2.686 6,6Z" />
+                    </svg>
+                  </i>
+                  <input type="text" placeholder="Search for anything...">
+              </div>
+              <div class="col col-12 col-lg-3 col-xxl-2 header__user-menu">
+                <div class="dropdown header__lang">
+                  <button class="btn btn-link dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    English
+                  </button>
+
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                    <li><a class="dropdown-item" href="#">Ukrainian</a></li>
+                  </ul>
+
+                </div>
+                <a href="#">Sign in</a>
+              </div>
+            </div>
+
+          </div>
+      </div>
+      </nav>
+    </div>
+    </div>
+  </header>
+  <div class="main container">
+    <div class="row justify-content-between">
+      <div class="col col-12 col-lg-3">
+        <div class="sidebar__wrapper">
+          <ul class="sidebar">
+            <li class="active">
+              <a href="#" class="sidebar__link">
+                <i>
+                  <svg width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                    style="fill-rule:evenodd;">
+                    <path
+                      d="M15,6.5c-1.381,0 -2.5,1.119 -2.5,2.5c0,1.381 1.119,2.5 2.5,2.5c1.381,0 2.5,-1.119 2.5,-2.5c0,-1.381 -1.119,-2.5 -2.5,-2.5Z" />
+                    <path
+                      d="M3,3l18,0l0,18l-2.473,0l-0.032,0l-12.995,0l-0.032,0l-2.468,0l0,-18Zm16,9.836c-1.145,1.062 -2.296,1.618 -4,1.618c-1.906,-0 -3.379,-1.168 -4.847,-2.749c-1.002,-1.079 -2.638,-1.271 -3.863,-0.455l-0.022,0.015l-1.268,0.948l0,-7.213l14,-0l0,7.836Z" />
+                  </svg>
+                </i>
+                <span>All photos</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sidebar__link">
+                <i>
+                  <svg width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M22,12c0,-5.523 -4.477,-10 -10,-10c-5.523,0 -10,4.477 -10,10c0,5.523 4.477,10 10,10c5.523,0 10,-4.477 10,-10Zm-2,0c0,4.418 -3.582,8 -8,8c-4.418,0 -8,-3.582 -8,-8c0,-4.418 3.582,-8 8,-8c4.418,0 8,3.582 8,8Zm-3.5,0c0,2.485 -2.015,4.5 -4.5,4.5c-2.485,0 -4.5,-2.015 -4.5,-4.5l-2,0c0,3.59 2.91,6.5 6.5,6.5c3.59,0 6.5,-2.91 6.5,-6.5l-2,0Z" />
+                    <path
+                      d="M11,9c0,0.828 -0.672,1.5 -1.5,1.5c-0.828,0 -1.5,-0.672 -1.5,-1.5c0,-0.828 0.672,-1.5 1.5,-1.5c0.828,0 1.5,0.672 1.5,1.5Z" />
+                    <path
+                      d="M16,9c0,0.828 -0.672,1.5 -1.5,1.5c-0.828,0 -1.5,-0.672 -1.5,-1.5c0,-0.828 0.672,-1.5 1.5,-1.5c0.828,0 1.5,0.672 1.5,1.5Z" />
+                  </svg>
+                </i>
+                <span>Selfies</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sidebar__link">
+                <i>
+                  <svg width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M22,12c0,-5.523 -4.477,-10 -10,-10c-5.523,-0 -10,4.477 -10,10c0,5.523 4.477,10 10,10c5.523,0 10,-4.477 10,-10Zm-2,-0c0,4.418 -3.582,8 -8,8c-4.418,0 -8,-3.582 -8,-8c0,-4.418 3.582,-8 8,-8c4.418,-0 8,3.582 8,8Zm-9,-5l0,5.414l3.5,3.5l1.414,-1.414l-2.914,-2.914l0,-4.586l-2,-0Z" />
+                  </svg>
+                </i>
+                <span>Recent</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sidebar__link">
+                <i>
+                  <svg width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M6,21l-0.998,0.067l0.062,0.933l0.936,0l0,-1Zm12,0l0,1l0.936,0l0.062,-0.933l-0.998,-0.067Zm-15,-16l-1,0l0,2l1,0l0,-2Zm18,2l1,0l0,-2l-1,0l0,2Zm-10,4l0,-1l-2,0l0,1l2,0Zm-2,5l0,1l2,0l0,-1l-2,0Zm6,-5l0,-1l-2,0l0,1l2,0Zm-2,5l0,1l2,0l0,-1l-2,0Zm-8.998,-9.933l1,15l1.996,-0.134l-1,-15l-1.996,0.134Zm1.998,15.933l12,0l0,-2l-12,0l0,2Zm12.998,-0.933l1,-15l-1.996,-0.134l-1,15l1.996,0.134Zm0.002,-16.067l-14,0l0,2l14,0l0,-2Zm-16,2l2,0l0,-2l-2,0l0,2Zm16,0l2,0l0,-2l-2,0l0,2Zm-10,4l0,5l2,0l0,-5l-2,0Zm4,0l0,5l2,0l0,-5l-2,0Zm-1,-7c1.396,0 2.572,0.955 2.906,2.249l1.936,-0.498c-0.555,-2.157 -2.511,-3.751 -4.842,-3.751l0,2Zm-2.906,2.249c0.334,-1.294 1.509,-2.249 2.906,-2.249l0,-2c-2.331,0 -4.287,1.594 -4.842,3.751l1.936,0.498Z" />
+                  </svg>
+                </i>
+                <span>Deleted</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col col-12  col-lg-8">
+        <div class="content">
+          <div class="content__head">
+            <div class="content__head-title">
+              <h1 class="content__title">All photos</h1>
+              <h5 class="content__counter">150 items</h5>
+            </div>
+            <div class="content__head-sorter">
+              <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="newest" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="newest">Newest</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="latest" autocomplete="off">
+                <label class="btn btn-outline-primary" for="latest">Latest</label>
+              </div>
+            </div>
+          </div>
+          <div class="content__listing">
+            <template id="listing-item">
+              <div class="listing-item card">
+                <img src="" alt="image" id="image" class="card-img-top">
+                <div class="listing-item__body">
+                  <div class="card-body">
+                    <h5 class="listing-item__title card-title">Heading</h5>
+                    <div class="card-text">
+                      <p class="listing-item__text"></p>
+                      <a href="#" class="show-more">Show More...</a>
+                    </div>
+                  </div>
+
+                  <div class="listing-item__bottom card-body">
+                    <a id="download-button" href="#" class="btn btn-primary" download>Save to collection</a>
+                    <a id="share-button" href="#" class="btn btn-outline-secondary">Share</a>
+                  </div>
+
+                </div>
+              </div>
+            </template>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
